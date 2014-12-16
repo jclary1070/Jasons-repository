@@ -3,5 +3,6 @@ When(/^I visit the Dominos home page$/) do
 end
  
 Then(/^I should see the Dominos home page$/) do
-  pending # express the regexp above with the code you wish you had
+  # pending # express the regexp above with the code you wish you had
+  expect(page).to have_selector(:id, 'homePage')
 end
