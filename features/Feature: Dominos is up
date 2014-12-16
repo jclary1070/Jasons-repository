@@ -1,0 +1,21 @@
+Feature: Dominos is up
+  We want to step through a simple scenario for training
+ 
+ 
+  Scenario: Check the Dominos home page     # features/<features_name>.feature:4
+    When I visit the Dominos home page      # features/<features_name>.feature:5
+    Then I should see the Dominos home page # features/<features_name>.feature:6
+ 
+1 scenario (1 undefined)
+2 steps (2 undefined)
+0m0.001s
+ 
+You can implement step definitions for undefined steps with these snippets:
+ 
+When(/^I visit the Dominos home page$/) do
+  pending # express the regexp above with the code you wish you had
+end
+ 
+Then(/^I should see the Dominos home page$/) do
+  pending # express the regexp above with the code you wish you had
+end
