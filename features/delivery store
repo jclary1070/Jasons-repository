@@ -1,0 +1,12 @@
+@orderonline
+Feature: Order Dominos Pizza Online
+  We want to step through a simple scenario for training
+ 
+@location
+Scenario: Find a delivery store 
+  Given I visit the Dominos home page
+  When I click the "Order Online" tab
+  Then I should see the Dominos Location Search page
+  Given I am at the Dominos Location Search Page
+  When I see the Dominos Location Search Page 
+  Then I will select a delivery store

@@ -1,0 +1,16 @@
+@orderonline
+Feature: Order Dominos Pizza Online
+  We want to step through a simple scenario for training
+ 
+@location
+Scenario: Order Multiple Pizzas
+  Given I visit the Dominos home page
+  When I click the "Order Online" tab
+  Then I should see the Dominos Location Search page
+  Given I see the Dominos Location Search page
+  Then I should see the address information page
+  When I see the address information page I should enter my address
+  Given I have entered information in to the fields for address information
+  Then I can select items to order
+  When I have completed my order I should be able to select multiple items 
+
