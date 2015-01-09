@@ -1,0 +1,10 @@
+
+Feature: Order Dominos Pizza Online
+ 
+Scenario: fill out an address
+
+  Given I visit the Dominos home page
+  When I click the "Order Online" tab
+  Then I should see the Dominos Location Search page
+  Given I see the Address information page
+Then I should enter the address 

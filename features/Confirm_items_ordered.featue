@@ -1,0 +1,8 @@
+
+Feature: Order Dominos Pizza Online
+ 
+Scenario: Verify checkout items
+
+Given that I have completed my order
+When the order has been completed 
+Then I should confirm the number of items in my cart
