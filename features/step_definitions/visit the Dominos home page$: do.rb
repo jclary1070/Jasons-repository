@@ -14,3 +14,18 @@ When /^I go to the "Address_Type_Select" on the homepage$/ do
  State = "IN"
  Zip Code = '46032'
 end
+When(/^I see Address Type I will select house$/) do
+  House = 'Address_Type'
+end
+Then(/^I will enter (\d+) Main street for Street Address$/) do |arg1|
+  Street Address = '123 Main Street'
+end
+Then(/^I will enter Carmel for the City$/) do
+  City = "Carmel"
+end
+Then(/^I will enter IN for the state$/) do
+  State = "IN"
+end
+Then(/^I will enter (\d+) for the zip code$/) do |arg1|
+  Zip code = '46032'
+end
