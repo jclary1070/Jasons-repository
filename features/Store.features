@@ -1,0 +1,9 @@
+Feature: Order Dominos Pizza Online
+  We want to step through a simple scenario for training
+
+Scenario: Delivery Store Selection
+
+Given I visit the Dominos home page
+When I click the "Order Online" tab
+Then I will verify the order Details columns
+
